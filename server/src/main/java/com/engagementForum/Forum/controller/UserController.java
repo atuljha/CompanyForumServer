@@ -2,15 +2,13 @@ package com.engagementForum.Forum.controller;
 
 import com.engagementForum.Forum.models.LoginData;
 import com.engagementForum.Forum.models.User;
-import com.engagementForum.Forum.repository.UserRepository;
 import com.engagementForum.Forum.services.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 @CrossOrigin(origins = "http://localhost:3002/")
